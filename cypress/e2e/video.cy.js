@@ -11,3 +11,4 @@ describe('Automation - File Upload Example', function () {
     
       cy.contains("The file's contents are:").should("be.visible")
     })
+})
