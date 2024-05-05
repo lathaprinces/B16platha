@@ -9,6 +9,6 @@ describe('Automation - File Upload Example', function () {
       cy.wait(3000)
       cy.get('input[@type="submit"]').click();
     
-      cy.contains("The file's contents are:").should("be.visible")
+      cy.contains("The file's contents are:").should.have("be.visible")
     })
 })
