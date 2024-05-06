@@ -9,12 +9,13 @@ describe('checkbox Test', function () {
 
  //CheckBox 
  
-       cy.get('input[name^=chk_altemail]').check().should('be.checked');
+       cy.get('input[name^=chk_altemail]').check().should('be.checked')
+      
  
        // cy.wait(10000)
  
         cy.get('input[name^=chk_altemail]').uncheck().should('not.be.checked');
- 
+        
   // //Radio 
  
  //cy.xpath('input[value="f"]', { timeout: 20000 }).check().should('be.checked');
